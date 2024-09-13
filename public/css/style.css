@@ -1,0 +1,165 @@
+/*  css goes here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(to bottom right, #2b2d42, #3f72af);
+    color: white;
+    text-align: center;
+    padding: 50px 20px 0px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3f72af;
+    border-radius: 9px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 20px;
+    display: flex;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.app-buttons img {
+    height: 40px;
+}
+
+.hero-image img {
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    max-height: 1000px;
+
+}
+
+.features, .how-it-works, .our-story, .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features {
+    background: linear-gradient(to bottom right, #abb2fd, #3686e7);
+    color: white;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%;
+}
+
+.how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.step img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.our-story {
+    background: linear-gradient(to bottom right, #2b2d42, #3f72af);
+    color: white;
+}
+
+.testimonials-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.testimonial {
+    width: 30%;
+}
+
+.footer {
+    background: #2b2d42;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f72af;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.app-buttons-footer img {
+    height: 40px;
+    margin-top: 20px;
+}
