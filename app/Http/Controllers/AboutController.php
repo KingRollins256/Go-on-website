@@ -14,7 +14,7 @@ class AboutController extends Controller
     public function index()
     {
         //return the blade called aboout
-        return view('about');
+        // return view('about');
     }
 
     /**

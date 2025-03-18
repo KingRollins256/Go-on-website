@@ -14,7 +14,7 @@ class ContactController extends Controller
     public function index()
     {
         //return blade for contact
-        Return view('contact');
+        // Return view('contact');
     }
 
     /**
